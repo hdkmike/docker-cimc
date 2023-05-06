@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  idrac1:
+    image: bceed7c454ff
+    restart: always
+    ports:
+      - 5800:5800
+      - 5900:5900
+    environment:
+      - CIMC_HOST=1.2.3.4
+      - CIMC_USER=admin
+      - CIMC_PASSWORD=password
+      - DARK_MODE=1
