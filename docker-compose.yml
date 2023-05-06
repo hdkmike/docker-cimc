@@ -1,7 +1,7 @@
 version: '3.1'
 
 services:
-  idrac1:
+  cimc:
     image: bceed7c454ff
     restart: always
     ports:
