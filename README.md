@@ -20,6 +20,8 @@ docker run -d \
 ```
 The web interface is on port 5800 and the VNC server is directly on 5900.
 
+You will need to click through the Java prompts the first time.
+
 ## Configuration
 
 | Variable       | Description                                  | Required |
@@ -28,3 +30,7 @@ The web interface is on port 5800 and the VNC server is directly on 5900.
 |`CIMC_USER`| CIMC username | Yes |
 |`CIMC_PASSWORD`| CIMC password | Yes |
 |`CIMC_PORT`| CIMC port (443 by default) | No |
+
+## Limitations
+
+Virtual media has not been tested yet.
