@@ -15,6 +15,8 @@ docker-build:
   stage: build
   services:
     - docker:dind
+  tags:
+    - dind
   before_script:
     - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
   # Default branch leaves tag empty (= latest tag)
