@@ -33,7 +33,8 @@ You will need to click through the Java prompts the first time.
 
 ## Limitations
 
-Virtual media has not been tested yet.
+* Virtual media has not been tested yet
+* Sometimes the container (javaws) will crash and you need to restart the container
 
 ## Acknowledgements
 * https://github.com/DomiStyle/docker-idrac6
