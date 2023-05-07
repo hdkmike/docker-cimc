@@ -34,3 +34,7 @@ You will need to click through the Java prompts the first time.
 ## Limitations
 
 Virtual media has not been tested yet.
+
+## Acknowledgements
+* https://github.com/DomiStyle/docker-idrac6
+* https://github.com/jlesage/docker-baseimage-gui
